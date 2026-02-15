@@ -1,0 +1,179 @@
+/* General rounding */
+/* :root {
+  --md-radius: 0px;
+  --md-text-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --md-code-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+} */
+:root {
+  --md-radius: 0px;
+  --md-text-font: Arial, Helvetica, sans-serif;
+  --md-code-font: Consolas, "Courier New", monospace;
+}
+
+/* Cards / surfaces */
+.md-typeset .admonition,
+.md-typeset details,
+.md-typeset code,
+.md-typeset pre,
+.md-search__form,
+.md-search__output,
+.md-nav__link,
+.md-top {
+  border-radius: 0 !important;
+}
+
+/* Flatten content surfaces */
+.md-main__inner,
+.md-content,
+.md-sidebar__scrollwrap {
+  background: transparent;
+}
+
+/* Search bar background */
+.md-search__form {
+  background-color: #0f0f0f !important;
+  border: 1px solid #2a2a2a;
+}
+
+/* Dark topbar background */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #111111;
+  --md-primary-bg-color: #111111;
+
+  --md-default-fg-color: #D6D6D6;
+  --md-default-bg-color: #0f0f0f;
+
+  --md-accent-fg-color: #FFD600;
+}
+
+/* Make header text match your muted gray */
+.md-header,
+.md-header__title,
+.md-header__topic {
+  color: #D6D6D6;
+}
+
+.md-header, .md-tabs, .md-nav, .md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+
+.md-nav__link {
+  padding: 0.25rem 0.5rem !important;
+  border-left: 2px solid transparent;
+}
+
+.md-nav__link--active {
+  border-left-color: #FFD600 !important;
+  color: #FFD600 !important;
+  background: transparent !important;
+}
+
+/* Bold text as signal color */
+.md-typeset strong {
+  color: #FFD600;
+  font-weight: 700;
+}
+
+/* Paragraph spacing: easier to parse without going "bloggy" */
+.md-typeset p {
+  margin: 1.0em 0 1.2em;
+}
+.md-typeset ul { margin: 0.4em 0 0.6em; }
+.md-typeset li { margin: 0.15em 0; }
+
+/* Header: kill drop shadow + any blur */
+.md-header {
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+/* Tabs (if enabled) */
+.md-tabs {
+  box-shadow: none !important;
+}
+
+/* Sidebars and search panel can have subtle shadows too */
+.md-sidebar,
+.md-search__inner,
+.md-search__overlay {
+  box-shadow: none !important;
+}
+
+/* === TOC active item: replace bar with terminal caret === */
+
+/* Remove the default vertical bar */
+.md-nav__link--active {
+  border-left: none !important;
+  padding-left: 1.2rem !important; /* make room for caret */
+  position: relative;
+}
+
+/* Inject caret */
+.md-nav__link--active::before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  color: #FFD600;
+  font-weight: bold;
+}
+
+.md-nav__link {
+  color: #B0B0B0;
+}
+
+.md-nav__link--active {
+  color: #FFD600 !important;
+}
+
+/* === Replace header permalink symbol with terminal-style glyph === */
+/* 1) Hide any built-in icon from pseudo-elements */
+.md-typeset .headerlink::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* 2) Hide any literal text inside the link (this kills the ¶ if it is text) */
+.md-typeset .headerlink {
+  color: transparent !important;
+  font-size: 0 !important;
+}
+
+/* 3) Add terminal glyph */
+.md-typeset .headerlink::after {
+  content: "<";
+  color: #FFD600 !important;
+  font-size: 1.5rem !important;
+  font-weight: 700;
+  margin-left: 0.4em;
+}
+
+/* === Replace search icon with terminal prompt === */
+
+/* Hide the magnifying glass icon */
+.md-search__icon {
+  display: none !important;
+}
+
+/* Make room for prompt text */
+.md-search__input {
+  padding-left: 2rem !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+/* Inject terminal prompt */
+.md-search__form::before {
+  content: "X:\\";
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #FFD600;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+/* Nuke the Material credit (sorry) */
+.md-footer-meta {
+  display: none !important;
+}

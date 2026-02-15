@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32" aria-hidden="true">
+  <style>
+    .tri {
+      transform-origin: 50% 50%;
+      transform-box: fill-box;
+      animation: spin 2.4s linear infinite;
+    }
+
+    @keyframes spin {
+      from {
+        transform: perspective(600px) rotateY(0deg);
+      }
+      to {
+        transform: perspective(600px) rotateY(360deg);
+      }
+    }
+  </style>
+
+  <!-- Hollow down-pointing triangle -->
+  <polygon class="tri" points="50,86 12,20 88,20" fill="none" stroke="#FFD600" stroke-width="10" stroke-linejoin="miter"></polygon>
+</svg>

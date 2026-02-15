@@ -1,0 +1,39 @@
+site_name: xaraiproject
+
+nav:
+  - Core ideas: index.md
+  - Who is Xarai?: xarai.md
+  - Current project phase: phase.md
+  - Full linktree: linktree.md
+
+theme:
+  name: material
+  logo: assets/tri-logo.svg
+  favicon: assets/tri-logo.svg
+  features:
+    - navigation.top
+    - toc.follow
+  palette:
+    - scheme: slate
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/img.css
+  - stylesheets/logo.css
+  - stylesheets/dropdown.css
+
+extra_javascript:
+  - javascripts/glitch-logo.js
+  - javascripts/external-links.js
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

@@ -1,0 +1,80 @@
+/* dropdown.css — all admonition / collapsible styling lives here */
+
+/* 1) Define per-type colors */
+:root {
+  --admon-question: #FFD600;
+  --admon-info: #85868A;
+  /* add more as needed:
+  --admon-warning: #ffb300;
+  --admon-danger:  #ff5252;
+  --admon-tip:     #69f0ae;
+  */
+}
+
+/* 2) Base styling for ALL admonitions/details (no colors here) */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0 !important;
+  background: #0f0f0f;
+}
+
+.md-typeset .admonition > .admonition-title,
+.md-typeset details > summary {
+  background: #111111;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+/* 3) Generic “apply a color” mixin pattern, per type */
+
+/* QUESTION */
+.md-typeset .admonition.question,
+.md-typeset details.question {
+  border: 1px solid var(--admon-question) !important;
+}
+
+.md-typeset .admonition.question > .admonition-title,
+.md-typeset details.question > summary {
+  color: var(--admon-question) !important;
+  border-left: 4px solid var(--admon-question) !important;
+  background-color: rgba(255, 214, 0, 0.10);
+}
+
+.md-typeset .admonition.question > .admonition-title::before,
+.md-typeset details.question > summary::before {
+  background-color: var(--admon-question) !important;
+}
+
+.md-typeset details.question > summary::after {
+  color: var(--admon-question) !important;
+}
+
+.md-typeset details.question > summary:hover {
+  background-color: rgba(255, 214, 0, 0.14);
+}
+
+
+/* INFO */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border: 1px solid var(--admon-info) !important;
+}
+
+.md-typeset .admonition.info > .admonition-title,
+.md-typeset details.info > summary {
+  color: var(--admon-info) !important;
+  border-left: 4px solid var(--admon-info) !important;
+  background-color: rgba(133, 134, 138, 0.10);
+}
+
+.md-typeset .admonition.info > .admonition-title::before,
+.md-typeset details.info > summary::before {
+  background-color: var(--admon-info) !important;
+}
+
+.md-typeset details.info > summary::after {
+  color: var(--admon-info) !important;
+}
+
+.md-typeset details.info > summary:hover {
+  background-color: rgba(133, 134, 138, 0.14);
+}

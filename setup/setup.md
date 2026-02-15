@@ -1,0 +1,6 @@
+# Make venv
+
+python -m venv venv
+venv\Scripts\activate
+
+python -m pip install mkdocs mkdocs-material

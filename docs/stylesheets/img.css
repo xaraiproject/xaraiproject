@@ -1,0 +1,150 @@
+/* === Terminal Image Window (GBuni-style) === */
+
+.terminal-window,
+.terminal-window * {
+  box-sizing: border-box;
+}
+
+.terminal-window {
+  background: #000000;
+  border: 1px solid #2a2a2a;
+  margin: 1.5rem 0;
+
+  /* optional, matches the HTML demo's "real window" lift */
+  box-shadow: 0 10px 28px rgba(0,0,0,0.65);
+  overflow: clip;
+}
+
+/* Titlebar */
+.terminal-titlebar {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px 0 8px;
+  background: #111111;
+  border-bottom: 1px solid #2a2a2a;
+  user-select: none;
+}
+
+/* Left side (icon + title) */
+.terminal-title-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  color: #d6d6d6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.terminal-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-grid;
+  place-items: center;
+  color: #FFD600;
+  font-size: 12px;
+  line-height: 1;
+}
+
+/* Title text like your demo */
+.terminal-title {
+  font-size: 13px;
+  color: #d6d6d6;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Buttons */
+.terminal-buttons {
+  display: flex;
+  align-items: stretch;
+  gap: 2px;
+  height: 100%;
+}
+
+.terminal-buttons > span {
+  width: 44px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: #d6d6d6;
+  background: transparent;
+  cursor: default;
+  position: relative;   /* for pseudo glyphs */
+  font-size: 0;         /* hide text; glyphs are drawn via ::before/::after */
+  line-height: 0;
+}
+
+.terminal-buttons > span {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.terminal-buttons > span:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.terminal-buttons > span.close:hover {
+  background: #c42b1c;
+  color: #ffffff;
+}
+
+/* MINIMIZE: centered line (absolute, like the X) */
+.terminal-buttons > span.min::before {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background: currentColor;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, calc(-50% + 6px)); /* slight downward bias */
+}
+
+/* MAXIMIZE: centered outline box (absolute, like the X) */
+.terminal-buttons > span.max::before {
+  content: "";
+  width: 10px;
+  height: 8px;
+  border: 1px solid currentColor;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* CLOSE: drawn with two lines (not a font glyph) */
+.terminal-buttons > span.close::before,
+.terminal-buttons > span.close::after {
+  content: "";
+  width: 12px;
+  height: 1px;
+  background: currentColor;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.terminal-buttons > span.close::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.terminal-buttons > span.close::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* === Content: image fills the fake window === */
+.terminal-content {
+  padding: 0;              /* remove padding so image hits edges */
+  background: #000000;
+  overflow: hidden; /* <- secondary clip layer */
+}
+
+.terminal-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: none;            /* remove inner border so it truly fills */
+}
