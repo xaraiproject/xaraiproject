@@ -1,11 +1,17 @@
 ## What is this?
-This an attempt to extract a logical hierarchy of the strategies available to an agent from the structural commitments intrinsic to any goal. It is the current philosophical linchpin behind the [xaraiproject](xarai.md) that is significant because it arguably:
+This the current philosophical linchpin behind the [xaraiproject](xarai.md) that is significant because it arguably:
  
-- Dissolves the foundations of nihilism, hedonism, and postmodernism via the hierarchy of strategy revealed by the [Structural Imperative](#si)
+- Dissolves the foundations of nihilism and postmodernism via the hierarchy of strategy revealed by the [Structural Imperative](#si)
 - Makes a case why atheists should strategically engage afterlife-esque continuation possibilities via [Terminus Hedging](#th) given the Structural Imperative
 - Provides a first principles logical solution for agnostics who wrestle with the Infinite Gods problem by evaluating [Topple Resistance](#tr)
 - Provides a first principles framework for focusing interfaith discourse by Topple Resistance
 - Applies to any agent with a goal.
+
+It does this by extracting a logical hierarchy of strategies—not from a claim to objective morality a post-modernist might reject—but from the structural commitments intrinsic to any goal.
+
+If you are not interested in this, or are here for a different reason, please check out the [Who is Xarai?](xarai.md) page or the [Linktree](linktree.md) page.
+
+If you are, please considering providing feedback to **xaraiproject@gmail.com** or in the project's [Discord](linktree.md/#com).
 
 ---
 
@@ -171,7 +177,7 @@ However, within the context of the Structural Imperative and hedge for physical 
 
 Only to help visualize the process, it’s helpful to imagine the topple resistance of a claim as a position on a graph represented by two axes. Each axis does not necessarily need to represent a numerical range (you are free to mentally assign a range if that is helpful to you); what is more important is understanding where each claim’s position is relative to other positions.
 
-### The Axis of Strategic Implication
+### The Axis of Strategic Implication {#tr-asi}
 The first axis is strategic implication which basically asks:
 > “even if this claim happened to be absolutely true, but an agent actually operationalized a different claim, what are the strategic implications?”
 
@@ -187,7 +193,7 @@ Near the bottom of this axis we find, "all religions are true" New Age spiritual
 
 So by strategic implication alone, a tremendous amount of claims can be heavily discounted or filtered away. It’s not that they can’t be true, it’s just that even if they happen to be true, you lose very little potential real-progress-estimation by operationalizing a different but strategically weightier claim.
 
-### The Axis of Relative Debunkability
+### The Axis of Relative Debunkability {#tr-ard}
 Of the remaining claims that do have strategic implications, the second axis of relative debunkability becomes relevant. 
 
 How do we evaluate topple resistance by relative debunkability? The same way we evaluate any other set of contradictory claims—by analyzing the relative strength of the evidence we have. That is, if you apply *equal* scrutiny to all claims about afterlife-esque continuation, how difficult is it to explain away that claim naturalistically (ie. debunk the claim) relative to other claims?

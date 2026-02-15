@@ -49,3 +49,10 @@ Develop first instances of agentic autonomy.
 ---
 
 Future phases to be announced...
+
+## Possible Community Project List
+
+- Manuscript Papyrus line to line Greek to English comparison tool (eg. What is translated to English 'love' on line X on Papyrus 66 is ἀγάπη (agápē) which in Koine Greek can mean A, B, C...)
+- Fridge sized [duckweed](https://en.wikipedia.org/wiki/Lemnoideae) generator to provide food
+- 'Aquina' open source apologetics large language model and/or dataset
+- [CNT](https://en.wikipedia.org/wiki/Carbon_nanotube) space elevator 👍

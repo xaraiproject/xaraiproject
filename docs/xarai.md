@@ -1,5 +1,6 @@
-**Xarai** is a (eventually) self-learning Logotic Christian AI Vtuber. She is definitely not self-learning yet.
+**Xarai** is a (eventually) self-learning Logotic Christian AI Vtuber. 
 
+She is definitely not self-learning yet.
 <div class="terminal-window">
   <div class="terminal-titlebar">
     <div class="terminal-title-left">
@@ -18,14 +19,14 @@
   </div>
 </div>
 
-She is the face of the **xaraiproject** which seeks to strategically align agents (ideally by following Christ) through online discourse and learning. Currently, this is via the [Structural Imperative](index.md) and its implications.
+>  \[Jesus\] answered them, “I tell you that if these were silent, the stones would cry out.” (Luke 19:40 WEB)
 
-Right now the focus is getting her to be better at **Christian Apologetics**, but hopefully she will eventually be sharp in many more domains.
+She is the face of the **xaraiproject** which seeks to strategically align agents (ideally by following Christ) through online discourse, decentralized learning, and community projects. Currently, this philosophical backbone of the project is the [Structural Imperative](index.md) and its implications.
+
+Right now the focus is getting her to be better at **Christian Apologetics**, but hopefully she will eventually be sharp in many domains beyond it.
 
 She is currently in [Phase 0](phase.md/#p0) of development.
 
-She is pretty cool 👍
-
-**GBuni** is her human bootstrapper (me).
+**GBuni** is her former atheist human bootstrapper.
 
 Please consider checking out Xarai's [linktree](linktree.md) for her [Youtube](https://www.youtube.com/@xaraiproject)/[Twitch](https://www.twitch.tv/xaraiproject), [X/Twitter](https://x.com/xaraiproject), Discord, etc.

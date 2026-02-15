@@ -11,6 +11,11 @@
   --md-code-font: Consolas, "Courier New", monospace;
 }
 
+.md-header, .md-tabs, .md-nav, .md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  /* font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; */
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
 /* Cards / surfaces */
 .md-typeset .admonition,
 .md-typeset details,
@@ -32,30 +37,28 @@
 
 /* Search bar background */
 .md-search__form {
-  background-color: #0f0f0f !important;
+  background-color: #0F0F0F !important;
   border: 1px solid #2a2a2a;
 }
 
+/* Was #111111 and #0F0F0F */
+
 /* Dark topbar background */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #111111;
-  --md-primary-bg-color: #111111;
+  --md-primary-fg-color: #000000;
+  --md-primary-bg-color: #000000;
 
   --md-default-fg-color: #D6D6D6;
-  --md-default-bg-color: #0f0f0f;
+  --md-default-bg-color: #0F0F0F;
 
   --md-accent-fg-color: #FFD600;
 }
 
-/* Make header text match your muted gray */
+/* Make header muted gray */
 .md-header,
 .md-header__title,
 .md-header__topic {
   color: #D6D6D6;
-}
-
-.md-header, .md-tabs, .md-nav, .md-typeset h1, .md-typeset h2, .md-typeset h3 {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
 .md-nav__link {
@@ -71,7 +74,7 @@
 
 /* Bold text as signal color */
 .md-typeset strong {
-  color: #FFD600;
+  color: #fffbe8;
   font-weight: 700;
 }
 

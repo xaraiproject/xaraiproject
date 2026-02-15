@@ -1,2 +1,5 @@
 # xaraiproject
-xaraiproject.com mkdoc
+
+This the the repo for [xaraiproject.com](xaraiproject.com).
+
+Please check out the site!

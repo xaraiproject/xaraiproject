@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 6px 0 8px;
-  background: #111111;
+  background: #000000;
   border-bottom: 1px solid #2a2a2a;
   user-select: none;
 }
@@ -138,7 +138,7 @@
 /* === Content: image fills the fake window === */
 .terminal-content {
   padding: 0;              /* remove padding so image hits edges */
-  background: #000000;
+  background: #0F0F0F;
   overflow: hidden; /* <- secondary clip layer */
 }
 
