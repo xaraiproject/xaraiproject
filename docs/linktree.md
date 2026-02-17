@@ -23,3 +23,20 @@ Please consider joining the xaraiproject [Discord](https://discord.gg/34mEg3et8M
 [Instagram profile](https://www.instagram.com/xaraiproject/)
 
 ---
+
+<div class="terminal-window">
+  <div class="terminal-titlebar">
+    <div class="terminal-title-left">
+      <span class="terminal-title">📷 НАШ-ТРИУМФ-В-КОСМОСЕ.png</span>
+    </div>
+    <div class="terminal-buttons">
+        <span class="min">—</span>
+        <span class="max">□</span>
+        <span class="close">✕</span>
+    </div>
+  </div>
+
+  <div class="terminal-content">
+    <img src="/assets/our-triumph-in-space.png" alt="our triumph in space" />
+  </div>
+</div>

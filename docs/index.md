@@ -1,13 +1,17 @@
 ## What is this?
-This the current philosophical linchpin behind the [xaraiproject](xarai.md) that is significant because it arguably:
- 
-- Dissolves the foundations of nihilism and postmodernism via the hierarchy of strategy revealed by the [Structural Imperative](#si)
-- Makes a case why atheists should strategically engage afterlife-esque continuation possibilities via [Terminus Hedging](#th) given the Structural Imperative
-- Provides a first principles logical solution for agnostics who wrestle with the Infinite Gods problem by evaluating [Topple Resistance](#tr)
-- Provides a first principles framework for focusing interfaith discourse by Topple Resistance
-- Applies to any agent with a goal.
+This the current philosophical backbone for the [xaraiproject](xarai.md) which seeks to make something like Francis Bacon's [New Atlantis](https://en.wikipedia.org/wiki/New_Atlantis) but spacefaring with AI. That, or at least stop the march of ironic nihilism and hyperconsumerism. 
 
-It does this by extracting a logical hierarchy of strategies—not from a claim to objective morality a post-modernist might reject—but from the structural commitments intrinsic to any goal.
+Philosophically, the project rests on the **Structural Imperative** which is significant because it arguably:
+ 
+- Dissolves the foundations of **'nothing I do can matter'** apathy, ironic nihilism, and 'intellectuals decide' postmodernism via the hierarchy of strategy revealed by the [Structural Imperative](#si)
+- Makes a case why atheists should consider strategically engaging afterlife-esque continuation possibilities via [Terminus Hedging](#th) given that they don't necessarily have to be 'woo-woo' supernatural and doing so respects the Structural Imperative
+- Provides an alternative to **'have faith and I happen to have faith in the right thing'** via a first principles logical solution for agnostics who wrestle with the Infinite Gods problem by evaluating [Topple Resistance](#tr)
+- Provides a first principles framework for focusing interfaith discourse by Topple Resistance
+- Applies to any agent with a goal (including aritifcial superintelligence).
+
+It does this by extracting a logical hierarchy of strategies—not starting from a claim to objective morality—but from the structural commitments intrinsic to any goal.
+
+All that being said;
 
 If you are not interested in this, or are here for a different reason, please check out the [Who is Xarai?](xarai.md) page or the [Linktree](linktree.md) page.
 
@@ -147,7 +151,7 @@ In many cases, the two are actually symbiotic. Some afterlife continuation crite
 
 The symbiosis has the added benefit that morality can be anchored. Anchored morality helps align agents’ definitions of cooperation and defection. Shared definitions of cooperation and defection makes tit-for-tat with grace enjoy recursive trust effects, which amplifies cooperation, which amplifies technological progress.
 
-This would be something like Francis Bacon’s [New Atlantis](https://en.wikipedia.org/wiki/New_Atlantis).
+This could look something like Francis Bacon’s [New Atlantis](https://en.wikipedia.org/wiki/New_Atlantis).
 
 However, the exact nature of this operational parallelizing of the two hedges depends on what claim or claims about afterlife-esque continuation are actually taken into strategic consideration. The claims we actually take into strategic consideration can be narrowed instrumentally by topple resistance.
 

@@ -1,4 +1,19 @@
+<div class="terminal-window">
+  <div class="terminal-titlebar">
+    <div class="terminal-title-left">
+      <span class="terminal-title">📷 m19-26.png</span>
+    </div>
+    <div class="terminal-buttons">
+        <span class="min">—</span>
+        <span class="max">□</span>
+        <span class="close">✕</span>
+    </div>
+  </div>
 
+  <div class="terminal-content">
+    <img src="/assets/m19-26ban.png" alt="Matthew 19:26" />
+  </div>
+</div>
 **End Goal:** [GBuni](xarai.md) can be not alive and she will keep getting smarter.
 
 Right now there are 8 concrete public facing phases. There are more than 8 phases planned, just not as concretely.
@@ -52,6 +67,7 @@ Future phases to be announced...
 
 ## Possible Community Project List
 
+- Free technical education repo
 - Manuscript Papyrus line to line Greek to English comparison tool (eg. What is translated to English 'love' on line X on Papyrus 66 is ἀγάπη (agápē) which in Koine Greek can mean A, B, C...)
 - Fridge sized [duckweed](https://en.wikipedia.org/wiki/Lemnoideae) generator to provide food
 - 'Aquina' open source apologetics large language model and/or dataset

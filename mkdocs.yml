@@ -5,6 +5,7 @@ nav:
   - Who is Xarai?: xarai.md
   - Current project phase: phase.md
   - Full linktree: linktree.md
+  - Aesthetics gallery: gallery.md
 
 theme:
   name: material
