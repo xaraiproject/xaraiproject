@@ -1,6 +1,24 @@
 ## What is this?
 This the current philosophical backbone for the [xaraiproject](xarai.md) which seeks to make something like Francis Bacon's [New Atlantis](https://en.wikipedia.org/wiki/New_Atlantis) but spacefaring with AI. That, or at least stop the march of ironic nihilism and hyperconsumerism. 
+<div class="terminal-window">
+  <div class="terminal-titlebar">
+    <div class="terminal-title-left">
+      <span class="terminal-title">📷 terminal-3.png</span>
+    </div>
+    <div class="terminal-buttons">
+        <span class="min">—</span>
+        <span class="max">□</span>
+        <span class="close">✕</span>
+    </div>
+  </div>
 
+  <div class="terminal-content">
+    <img src="/assets/milvian-bridge.png" alt="milvian-bridge-space-elevator" />
+    <div class="terminal-caption" data-kind="info">
+      We should have a lunar space elevator.
+    </div>
+  </div>
+</div>
 Philosophically, the project rests on the **Structural Imperative** which is significant because it arguably:
  
 - Dissolves the foundations of **'nothing I do can matter'** apathy, ironic nihilism, and 'intellectuals decide' postmodernism via the hierarchy of strategy revealed by the [Structural Imperative](#si)

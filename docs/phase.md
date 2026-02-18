@@ -13,6 +13,9 @@
   <div class="terminal-content">
     <img src="/assets/m19-26ban.png" alt="Matthew 19:26" />
   </div>
+  <div class="terminal-caption" data-kind="info">
+     Tungsten cross on Mars.
+  </div>
 </div>
 **End Goal:** [GBuni](xarai.md) can be not alive and she will keep getting smarter.
 

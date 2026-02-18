@@ -39,4 +39,7 @@ Please consider joining the xaraiproject [Discord](https://discord.gg/34mEg3et8M
   <div class="terminal-content">
     <img src="/assets/our-triumph-in-space.png" alt="our triumph in space" />
   </div>
+  <div class="terminal-caption" data-kind="info">
+    "But take heart! I have overcome the world/κόσμος/kosmos!" - Jesus Christ, John 16:33
+  </div>
 </div>

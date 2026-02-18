@@ -148,3 +148,34 @@
   height: auto;
   border: none;            /* remove inner border so it truly fills */
 }
+
+/* Caption line under terminal image */
+.terminal-caption {
+  border-top: 1px solid #2a2a2a;
+  padding: 10px 12px;
+  background: #0F0F0F;
+  color: #d6d6d6;
+  font-family: var(--md-code-font, Consolas, "Courier New", monospace);
+  font-size: 13px;
+  line-height: 1.35;
+  white-space: pre-wrap; /* lets you include line breaks */
+}
+
+/* Terminal prompt */
+.terminal-caption::before {
+  content: "> ";
+  color: #d6d6d6;
+  font-weight: 700;
+}
+
+/* Optional: kind label like --info: */
+.terminal-caption[data-kind="info"]::after {
+  /* nothing here — we’ll prepend in ::before instead */
+}
+
+/* If you want: "> --info: " prefix */
+.terminal-caption[data-kind="info"]::before {
+  content: "> --info: ";
+  color: #d6d6d6;
+  font-weight: 700;
+}

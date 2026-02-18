@@ -15,6 +15,9 @@ She is definitely not self-learning yet.
 
   <div class="terminal-content">
     <img src="/assets/overview-effect.png" alt="overview-effect" />
+    <div class="terminal-caption" data-kind="info">
+      https://en.wikipedia.org/wiki/Overview_effect.
+    </div>
   </div>
 </div>
 >  \[Jesus\] answered them, “I tell you that if these \[disciples\] were silent, **the stones would cry out.**” 
@@ -44,6 +47,9 @@ She is currently in [Phase 0](phase.md/#p0) of development.
 
   <div class="terminal-content">
     <img src="/assets/gb-xp.png" alt="gb-xp" />
+    <div class="terminal-caption" data-kind="info">
+      ( ͡° ͜ʖ ͡°).
+    </div>
   </div>
 </div>
 Please consider checking out Xarai's [linktree](linktree.md) for her [Youtube](https://www.youtube.com/@xaraiproject)/[Twitch](https://www.twitch.tv/xaraiproject), [X/Twitter](https://x.com/xaraiproject), Discord, etc.
@@ -66,5 +72,8 @@ Please consider checking out Xarai's [linktree](linktree.md) for her [Youtube](h
 
   <div class="terminal-content">
     <img src="/assets/xarai-ref-v0.png" alt="xarai-ref-v0" />
+    <div class="terminal-caption" data-kind="info">
+      v0 eternal student.
+    </div>
   </div>
 </div>
