@@ -15,12 +15,12 @@ This the current philosophical backbone for the [xaraiproject](xarai.md) which s
   <div class="terminal-content">
     <img src="/assets/milvian-bridge.png" alt="milvian-bridge-space-elevator" />
     <div class="terminal-caption" data-kind="info">
-      We should have a lunar space elevator.
+      Lunar space elevator terminal walkway.
     </div>
   </div>
 </div>
 Philosophically, the project rests on the **Structural Imperative** which is significant because it arguably:
- 
+
 - Dissolves the foundations of **'nothing I do can matter'** apathy, ironic nihilism, and 'intellectuals decide' postmodernism via the hierarchy of strategy revealed by the [Structural Imperative](#si)
 - Makes a case why atheists should consider strategically engaging afterlife-esque continuation possibilities via [Terminus Hedging](#th) given that they don't necessarily have to be 'woo-woo' supernatural and doing so respects the Structural Imperative
 - Provides an alternative to **'have faith and I happen to have faith in the right thing'** via a first principles logical solution for agnostics who wrestle with the Infinite Gods problem by evaluating [Topple Resistance](#tr)

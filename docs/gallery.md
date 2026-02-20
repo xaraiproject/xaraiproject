@@ -1,3 +1,5 @@
+I apologize that these are AI generated. My budget is very limited but I think the images are critical to get the vibe across.
+
 <div class="terminal-window">
   <div class="terminal-titlebar">
     <div class="terminal-title-left">
@@ -21,6 +23,26 @@
 <div class="terminal-window">
   <div class="terminal-titlebar">
     <div class="terminal-title-left">
+      <span class="terminal-title">📷 psalm-118-22.png</span>
+    </div>
+    <div class="terminal-buttons">
+        <span class="min">—</span>
+        <span class="max">□</span>
+        <span class="close">✕</span>
+    </div>
+  </div>
+
+  <div class="terminal-content">
+    <img src="/assets/psalm-118-22.png" alt="Psalm 118:22" />
+  </div>
+  <div class="terminal-caption" data-kind="info">
+     Asteroid operation prayer corner.
+  </div>
+</div>
+
+<div class="terminal-window">
+  <div class="terminal-titlebar">
+    <div class="terminal-title-left">
       <span class="terminal-title">📷 col3-17.png</span>
     </div>
     <div class="terminal-buttons">
@@ -33,7 +55,7 @@
   <div class="terminal-content">
     <img src="/assets/col3-17.png" alt="col3-17" />
     <div class="terminal-caption" data-kind="info">
-      Human-AI dyad asteriod mining.
+      Human-AI dyad asteroid mining.
     </div>
   </div>
 </div>
