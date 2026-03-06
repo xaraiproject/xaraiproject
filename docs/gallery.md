@@ -23,6 +23,26 @@ I apologize that these are AI generated. My budget is very limited but I think t
 <div class="terminal-window">
   <div class="terminal-titlebar">
     <div class="terminal-title-left">
+      <span class="terminal-title">📷 philippians-4-13.png</span>
+    </div>
+    <div class="terminal-buttons">
+        <span class="min">—</span>
+        <span class="max">□</span>
+        <span class="close">✕</span>
+    </div>
+  </div>
+
+  <div class="terminal-content">
+    <img src="/assets/philippians-4-13.png" alt="philippians-4-13" />
+  </div>
+  <div class="terminal-caption" data-kind="info">
+     Cybernetic arm with a rosary.
+  </div>
+</div>
+
+<div class="terminal-window">
+  <div class="terminal-titlebar">
+    <div class="terminal-title-left">
       <span class="terminal-title">📷 psalm-118-22.png</span>
     </div>
     <div class="terminal-buttons">
